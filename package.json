@@ -1,0 +1,21 @@
+{
+  "name": "cadl-data-store",
+  "dependencies": {
+    "@azure/cosmos": "^3.16.1",
+    "@cadl-lang/compiler": "latest",
+    "@cadl-lang/rest": "latest",
+    "@types/node": "^18.0.0"
+  },
+  "private": true,
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "cadlMain": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module"
+}

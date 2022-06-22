@@ -1,0 +1,12 @@
+import "@cadl-lang/rest";
+import "cadl-data-store";
+
+@store model Widget {
+  name: string,
+  color: "red" | "blue";
+}
+
+@store model Person {
+  name: string;
+  age: int32;
+}
